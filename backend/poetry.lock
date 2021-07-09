@@ -403,11 +403,11 @@ sanic = ">=18.12.0"
 
 [[package]]
 name = "secure"
-version = "0.2.1"
-description = "A lightweight package that adds optional security headers and cookie attributes for Python web frameworks."
+version = "0.3.0"
+description = "A lightweight package that adds security headers for Python web frameworks."
 category = "main"
 optional = false
-python-versions = ">=3"
+python-versions = ">=3.6"
 
 [[package]]
 name = "six"
@@ -488,7 +488,7 @@ testing = ["jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "6ebe743f07984a30f6edbed988710577c99555a450050ff466aa00074d4af362"
+content-hash = "f992e12b149adf8204ea4c2512a4699ee543c255930c528c032cca3c006efe7f"
 
 [metadata.files]
 aiofiles = [
@@ -727,8 +727,8 @@ sanic-plugins-framework = [
     {file = "Sanic_Plugins_Framework-0.9.2-py2.py3-none-any.whl", hash = "sha256:2949374e414a497a3b07b09800d3d0b3cdf24f3a1d3f08591488759099cb7f44"},
 ]
 secure = [
-    {file = "secure-0.2.1-py2-none-any.whl", hash = "sha256:b3bf1e39ebf40040fc3248392343a5052aa14cb45fc87ec91b0bd11f19cc46bd"},
-    {file = "secure-0.2.1.tar.gz", hash = "sha256:4dc8dd4b548831c3ad7f94079332c41d67c781eccc32215ff5a8a49582c1a447"},
+    {file = "secure-0.3.0-py3-none-any.whl", hash = "sha256:a93b720c7614809c131ca80e477263140107c6c212829d0a6e1f7bc8d859c608"},
+    {file = "secure-0.3.0.tar.gz", hash = "sha256:6e30939d8f95bf3b8effb8a36ebb5ed57f265daeeae905e3aa9677ea538ab64e"},
 ]
 six = [
     {file = "six-1.15.0-py2.py3-none-any.whl", hash = "sha256:8b74bedcbbbaca38ff6d7491d76f2b06b3592611af620f8426e82dddb04a5ced"},
